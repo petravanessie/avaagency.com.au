@@ -1,8 +1,6 @@
 #casestudy #banner .container-fluid {
     height: 500px;
     background-color: $brand-grey-40;
-    background: url("../img/projects/spiralsbg.jpg") center center;
-    background-size: cover;
 
     @include media-breakpoint-down(lg) {
         height: 400px;
