@@ -66,22 +66,23 @@
             class="fas fa-mobile-alt fa-lg"></i> 0439 03 5150</span>
         <div class="text">Whether you have a project that is about to take flight or just want to say hello, we'd always
           love to hear from you!</div>
-        <form>
+        <form action="https://formspree.io/hello@avaagency.com.au" method="POST">
           <div class="input-group">
-            <input type="text" class="form-control left" placeholder="Name" aria-label="Name"
+            <input type="text" name="name" class="form-control left" placeholder="Name" aria-label="Name"
               aria-describedby="subscription-form">
-            <input type="text" class="form-control right" placeholder="Company / Business" aria-label="Company"
+            <input type="text" name="company" class="form-control right" placeholder="Company / Business" aria-label="Company"
               aria-describedby="subscription-form">
           </div>
           <div class="input-group">
-            <input type="text" class="form-control left" placeholder="Phone" aria-label="Phone"
+            <input type="text" name="phone" class="form-control left" placeholder="Phone" aria-label="Phone"
               aria-describedby="subscription-form">
-            <input type="text" class="form-control right" placeholder="Email" aria-label="Email"
+            <input type="text" name="email" class="form-control right" placeholder="Email" aria-label="Email"
               aria-describedby="subscription-form">
           </div>
           <div class="form-group">
-            <textarea class="form-control" rows="6" placeholder="Share with us your query or story"></textarea>
-          </div><button class="btn btn-primary" type="submit">Send</button>
+            <textarea name="message" class="form-control" rows="6" placeholder="Share with us your query or story"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send</button>
         </form>
 
       </div>
