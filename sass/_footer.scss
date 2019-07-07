@@ -1,0 +1,45 @@
+.footer {
+
+  width: 100%;
+  background-color: $brand-black;
+  border-bottom:5px solid $brand-blue;
+  color:$brand-grey-20;
+  font-size:0.875rem;
+      @include media-breakpoint-up(sm) {
+  position: absolute;
+  bottom: 0;
+  }
+}
+
+.footer .container-fluid, .footer .container{
+
+    @include media-breakpoint-up(sm) {
+height:100%;
+  }
+}
+.footer .container{
+  padding-left:0;
+  padding-right:0;
+        @include media-breakpoint-only(xs) {
+      padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+.footer .logo{
+	padding:0;
+	width:40px;
+          @include media-breakpoint-only(xs) {
+    padding-bottom: 80px;
+  }
+}
+.footer .logo img{
+	width:100%;
+}
+.footer .logo svg path{
+	fill:$brand-grey-50;
+}
+.footer .social{
+            @include media-breakpoint-only(xs) {
+    padding-bottom: 20px;
+  }
+}

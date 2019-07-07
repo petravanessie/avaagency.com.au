@@ -1,0 +1,157 @@
+#about #intro .container{
+	margin-top:230px;
+	@include media-breakpoint-down(sm) {
+margin-top:130px;
+	}
+}
+#about #intro .img img{
+width:100%;
+}
+#about #intro .row{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#about #intro .row .left {
+    @include media-breakpoint-up(md) {
+    padding-left: 80px;
+    padding-right: 30px;
+    
+
+    }
+}
+#about #intro .row .right {
+	@include media-breakpoint-up(md) {
+    padding-right: 80px;
+    padding-left: 30px;
+}
+}
+#about #whatwedo .container-fluid{
+background-color:$brand-grey-20;
+}
+#about #whatwedo .container{
+	padding-top:50px;
+	text-align:center;
+	padding-bottom:100px;
+	@include media-breakpoint-up(md) {
+	padding-left: 80px;
+	padding-right: 80px;
+	}
+	@include media-breakpoint-down(sm) {
+        padding-left:0;
+        padding-right:0;
+    }
+}
+#about #whatwedo{
+	font-size:1.25rem;
+}
+#about #whatwedo h4, #about #method h4{
+	text-align:left;
+	margin-bottom:50px;
+	font-size:1.625rem;
+	color:rgba($brand-black, 0.4);
+}
+#about #whatwedo p{
+	max-width:800px;
+	margin:0 auto;
+}
+#about #method .container{
+	padding-top:50px;
+	padding-bottom:100px;
+		@include media-breakpoint-up(lg) {
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+
+}
+#about #method .methodGroup {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    @include media-breakpoint-down(sm) {
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+}
+#about #method .methodGroup.odd .text{
+		@include media-breakpoint-only(xl) {
+	padding-left:calc(50px + 52px);
+	padding-right:60px;
+	}
+	@include media-breakpoint-only(lg) {
+	padding-left:calc(30px + 52px);
+	padding-right:40px;
+	}
+	@include media-breakpoint-only(md) {
+padding-right:20px;
+	}
+
+}
+#about #method .methodGroup.odd .image{
+	@include media-breakpoint-only(xl) {
+			padding-left:60px;
+	padding-right:50px;
+	}
+	@include media-breakpoint-only(lg) {
+padding-left:40px;
+	padding-right:30px;
+	}
+	@include media-breakpoint-only(md) {
+padding-left:20px;
+	}
+
+}
+#about #method .methodGroup.even .text{
+		@include media-breakpoint-only(xl) {
+padding-left:calc(60px + 52px);
+	padding-right:50px;
+	}
+	@include media-breakpoint-only(lg) {
+padding-left:calc(40px + 52px);
+	padding-right:30px;
+	}
+	@include media-breakpoint-only(md) {
+padding-right:20px;
+	}
+
+}
+#about #method .methodGroup.even .image{
+	@include media-breakpoint-only(xl) {
+	padding-right:60px;
+	padding-left:50px;
+	}
+	@include media-breakpoint-only(lg) {
+padding-right:40px;
+	padding-left:30px;
+	}
+	@include media-breakpoint-only(md) {
+padding-left:20px;
+	}
+
+}
+#about #method .title{
+	@include media-breakpoint-up(lg) {
+margin-left:-52px;
+	}
+	@include media-breakpoint-down(sm) {
+		margin-top:20px;
+	}
+}
+
+#about #method .image img{
+	width:100%;
+}
+#about #method span.number {
+    padding: 6px 14px;
+    background-color: $brand-blue;
+    color: $brand-white;
+    display: inline-block;
+    margin-right: 15px;
+    font-family:$font-muli;
+    font-weight:700;
+}
+
+#about #method h5 {
+    display: inline-block;
+    font-size:1.25rem;
+    font-weight:bold;
+    margin-bottom:30px;
+}

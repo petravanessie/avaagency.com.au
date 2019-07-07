@@ -1,0 +1,66 @@
+#blog .container {
+    margin-top: 230px;
+    padding-left: 241px;
+    padding-right: 241px;
+    padding-bottom: 100px;
+
+    @include media-breakpoint-only(lg) {
+        padding-left: 151px;
+        padding-right: 151px;
+    }
+
+    @include media-breakpoint-only(md) {
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    @include media-breakpoint-down(sm) {
+margin-top:80px;
+	}
+}
+
+#blog .excerpt h2 {
+    font-size: 2.5rem;
+}
+
+#blog .excerpt {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid $brand-grey-20;
+    padding: 25px;
+}
+
+#blog .excerpt.first {
+    border-top: none;
+}
+
+#blog a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#blog a:hover .excerpt {
+    background-color: lighten($brand-grey-10, 1.2%);
+}
+
+#blog .excerpt .tag {
+    font-weight: 700;
+    color: $brand-blue;
+}
+
+#blog .excerpt .tag i {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#blog .excerpt .date {
+    font-size: .875rem;
+    color: $brand-grey-50;
+    margin-left: 10px;
+}
+
+

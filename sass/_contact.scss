@@ -1,0 +1,78 @@
+#contact .container{
+	margin-top:230px;
+	padding-left:266px;
+	padding-right:266px;
+	padding-bottom:100px;
+	@include media-breakpoint-only(lg) {
+	padding-left:176px;
+	padding-right:176px;
+	}
+		@include media-breakpoint-only(md) {
+	padding-left:56px;
+	padding-right:56px;
+	}
+	@include media-breakpoint-down(sm) {
+padding-left:15px;
+	padding-right:15px;
+	}
+	 @include media-breakpoint-down(sm) {
+margin-top:80px;
+	}
+}
+#contact h2{
+	font-size: 3.75rem;
+
+    @include media-breakpoint-down(lg) {
+        font-size: 3rem;
+    }
+}
+
+#contact span.options{
+	margin-left:10px;
+	margin-right:20px;
+	display:inline-block;
+	@include media-breakpoint-down(sm) {
+        margin-left:5px;
+    }
+}
+#contact span.options i{
+	margin-right:10px;
+}
+#contact .text{
+margin-top:50px;
+margin-bottom:40px;
+font-size:1.125rem;
+}
+#contact .input-group{
+margin:0 auto;
+max-width:680px;
+margin-bottom:15px;
+}
+
+#contact .form-control{
+      padding: 15px 20px;
+
+      border-radius: 1px;
+  border: 1px solid $brand-grey-30;
+  color: $brand-grey-30!important;
+  background: url("../img/form-bg.png") repeat-x;
+}
+
+
+
+#contact input.form-control.right{
+border-left:1px solid $brand-grey-20;
+}
+#contact input.form-control.left{
+border-right:1px solid $brand-grey-20;
+}
+
+#contact .form-control::placeholder { /* Most modern browsers support this now. */
+   color:    $brand-grey-30;
+}
+#contact .btn{
+color:$brand-white;
+border-radius:1px;
+padding:10px 30px;
+float:right;
+}
